@@ -1,0 +1,7 @@
+<h1>welcome to the restuarant</h1>
+<h3>List of items here!</h3>
+<hr>
+{% for record in res %}
+     <p>{{ record.name }}----{{ record.variety }}----{{ record.price }}</p>
+{% endfor %}
+     
